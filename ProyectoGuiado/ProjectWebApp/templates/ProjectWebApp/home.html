@@ -1,0 +1,42 @@
+{% extends "ProjectWebApp/base.html" %}
+
+    {% load static %}
+
+        {% block content %}
+
+            <!-- Heading -->
+            <section class="page-section clearfix">
+                <div class="container">
+                    <div class="intro">
+                        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProjectWebApp/img/doble-codigo.png' %}" alt="">
+                        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                            <h2 class="section-heading mb-4" >
+                                <span class="section-heading-upper">Aprendizaje</span>
+                                <span class="section-heading-lower">Página de Aprendizaje</span>
+                            </h2>
+                            <p class="mb-3">Primer proyecto completo haciendo uso del Framework Django
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Message -->
+            <section class="page-section cta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 mx-auto">
+                            <div class="cta-inner text-center rounded">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Estudiante ING Sistemas</span>
+                                    <span class="section-heading-lower">USTA Tunja, Colombia</span>
+                                </h2>
+                                <p class="mb-0">Primer proyecto realizado con Python, haciendo uso de mis pocos y recien obtenidos conocimientos en dicho lenguaje durante la cuarentena ocasionada por una pandemia mundial.
+                                Este proyecto es guiado de manera offline por el curso en Django de PildorasInformaticas, tambien hace uso de HTML y Bootstrap para el diseño de la página.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        {% endblock %}
